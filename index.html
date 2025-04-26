@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>美術譜｜AIでアート教育をサポート</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      padding: 3rem 2rem 2rem 2rem;
+      text-align: center;
+      background: linear-gradient(135deg, #f8bbd0, #b2ebf2);
+      color: #333;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+      letter-spacing: 0.05em;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    section {
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.8);
+      margin: 1rem auto;
+      width: 90%;
+      max-width: 800px;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      opacity: 0;
+      animation: fadeInUp 1s ease forwards;
+    }
+    section:nth-of-type(1) {
+      animation-delay: 0.3s;
+    }
+    section:nth-of-type(2) {
+      animation-delay: 0.6s;
+    }
+    section:nth-of-type(3) {
+      animation-delay: 0.9s;
+    }
+
+    h2 {
+      color: #0077cc;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.8rem;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 1rem 2rem;
+      background: linear-gradient(135deg, #4fc3f7, #81d4fa);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 50px;
+      transition: background 0.3s ease;
+    }
+    a.button:hover {
+      background: linear-gradient(135deg, #29b6f6, #4fc3f7);
+    }
+    footer {
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.8rem;
+      margin-top: auto;
+      background: rgba(255, 255, 255, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>美術教育で世界を豊かに！</h1>
+    <p>未来を描く、美術教育のAIメンター「美術譜」</p>
+  </header>
+
+  <section>
+    <h2>こんなお悩みありませんか？</h2>
+    <ul>
+      <li>生徒がわくわく、先生もワクワクな題材はないかな</li>
+      <li>指導案が、サクッと書けたらいいな！</li>
+      <li>生徒の学びや授業後の振り返りを充実させたい</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>美術譜とは？</h2>
+    <p>美術譜は、学習指導要領に基づいた先生のための、授業レシピです。  
+    楽しみながら、次世代の美術教育についてを考えて行きましょう。</p>
+  </section>
+
+  <section>
+    <h2>まずはアンケートにご協力ください</h2>
+    <p>簡単なアンケートにご回答いただくと、すぐに美術譜を体験できます。</p>
+    <a href="https://forms.gle/PBp8N3BfwZYdRg5z8" class="button">
+      アンケートに回答して無料体験する
+    </a>
+  </section>
+
+  <footer>
+    © 2025 美術譜プロジェクト
+  </footer>
+</body>
+</html>
